@@ -5,13 +5,23 @@
 html {
   height: 100%;
   background-color: #3e5b7a;
+  background-image: url('./components/Images.js/Bomb.jpeg');
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 body {
   margin: 0;
   min-height: 100%;
   margin: 4rem;
-  color: whitesmoke;
+  color: firebrick;
+}
+
+.header {
+  font-size: 16px;
+  padding-left: 9rem;
+  padding-top: 4rem;
 }
 
 main {
@@ -31,11 +41,19 @@ td {
   background-color: gray;
   box-shadow: 5px 5px 15px 5px #000000;
 }
-td:active {
-  background-color: goldenrod;
+
+.DoOver {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 9rem;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
+.message {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 6rem;
+}
+
+button {
+  margin-left: 2rem;
 }
